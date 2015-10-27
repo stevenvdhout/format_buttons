@@ -11,6 +11,7 @@
 
 	CKEDITOR.plugins.add(pluginName, {
 		
+		lang: 'en,nl',
 		icons: 'h1,h2,h3,h4,h5,h6',
 		hidpi: true,
 
@@ -59,7 +60,7 @@
 				h6: ['h6'],
 			},
 			config = editor.config,
-			lang = editor.lang.basicstyles;
+			lang = editor.lang.format_buttons;
 
 			addButtonCommand( 'h1', lang.h1, 'h1', config.h1 );
 			addButtonCommand( 'h2', lang.h2, 'h2', config.h2 );
