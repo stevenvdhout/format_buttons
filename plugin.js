@@ -11,7 +11,7 @@
 
 	CKEDITOR.plugins.add(pluginName, {
 		
-		lang: 'en,nl',
+		lang: 'de,en,nl',
 		icons: 'h1,h2,h3,h4,h5,h6',
 		hidpi: true,
 
